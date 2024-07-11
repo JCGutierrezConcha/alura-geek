@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #5300C8;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.contenido-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 80px);
+    /* Ajustar la altura según el header */
+}
+
+/* Estilos para la sección de productos */
+.section-productos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 20px;
+    overflow-y: auto;
+}
+
+.titulo-productos,
+.titulo-formulario {
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+
+}
+
+.producto-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.producto-item {
+    background-color: #5D04D9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    /* Ajuste para tres columnas */
+    box-sizing: border-box;
+}
+
+.producto-imagen {
+    max-width: 100px;
+    height: auto;
+}
+
+.producto-nombre {
+    color: #ccc;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.producto-precio {
+    color: #ccc;
+    font-size: 1em;
+}
+
+.icono-borrar {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icono-basurero img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilos para la sección del formulario */
+.section-formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra el contenido horizontalmente */
+    overflow-y: auto;
+}
+
+.formulario-agregar-producto {
+    width: 80%;
+    /* Ocupa el 80% del espacio disponible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra el contenido del formulario horizontalmente */
+}
+
+.formulario-producto {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.input-producto {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* Bordes redondeados */
+}
+
+.formulario-botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boton-enviar,
+.boton-limpiar {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* Bordes redondeados */
+}
+
+footer {
+    background-color: #5300C8;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+}

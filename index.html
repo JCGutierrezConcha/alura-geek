@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="./imagenes/Logo.png" alt="logo">
+    </header>
+
+    <main class="main-contenido">
+        <div class="contenido-wrapper">
+            <!--Inicio de productos-->
+            <section class="section-productos">
+                <h2 class="titulo-productos">MIS PRODUCTOS</h2>
+                <div class="producto-container" id="producto-container">
+                    <!-- Los productos se agregarán aquí de forma dinámica -->
+                </div>
+            </section>
+
+            <!--Inicio sección formulario-->
+            <section class="section-formulario">
+                <h2 class="titulo-formulario">AGREGAR PRODUCTO</h2>
+
+                <!--Formulario-->
+                <form class="formulario-agregar-producto" data-form>
+                    <fieldset class="formulario-producto">
+                        <input name="nombre" id="nombre" class="input-producto" placeholder="Nombre" type="text"
+                            data-nombre />
+                    </fieldset>
+                    <fieldset class="formulario-producto">
+                        <input name="precio" id="precio" class="input-producto" placeholder="Precio" type="text"
+                            data-precio />
+                    </fieldset>
+                    <fieldset class="formulario-producto">
+                        <input name="imagen" id="imagen" class="input-producto" placeholder="Imagen" type="text"
+                            data-imagen />
+                    </fieldset>
+                    <div class="formulario-botones">
+                        <button type="submit" class="boton-enviar" id="btn">Enviar</button>
+                        <button type="reset" class="boton-limpiar" id="btn">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="pie">
+        <img src="./imagenes/Logo.png" alt="logo">
+        <h3> DESARROLLADO POR JUAN CARLOS GUTIERREZ</h3>
+        <h3>ALURA LATAM -2024</h3>
+
+    </footer>
+
+    <script src="js/controllers/main.js" type="module"></script>
+</body>
+
+</html>

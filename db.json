@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "nombre": "Flash",
+      "imagen": "./imagenes/flash-funko.JPG",
+      "precio": "12990",
+      "id": "1"
+    },
+    {
+      "nombre": "Capitán America",
+      "imagen": "./imagenes/capitan-america-funko.JPG",
+      "precio": "14990",
+      "id": "2"
+    },
+    {
+      "nombre": "Iron Man",
+      "imagen": "./imagenes/iron-man-funko.JPG",
+      "precio": "15990",
+      "id": "3"
+    },
+    {
+      "nombre": "Batman",
+      "imagen": "./imagenes/batman-funko.JPG",
+      "precio": "12990",
+      "id": "4"
+    },
+    {
+      "nombre": "Thor",
+      "imagen": "./imagenes/thor-funko.JPG",
+      "precio": "17000",
+      "id": "5"
+    },
+    {
+      "nombre": "Hombre araña",
+      "imagen": "./imagenes/spiderman-funko.JPG",
+      "precio": "15990",
+      "id": "6"
+    },
+    {
+      "nombre": "Linterna Verde",
+      "imagen": "./imagenes/linterna-verde-funko.JPG",
+      "precio": "12990",
+      "id": "7"
+    },
+    {
+      "nombre": "Mandalorian",
+      "imagen": "./imagenes/mandalorian-funko.JPG",
+      "precio": "17500",
+      "id": "8"
+    },
+    {
+      "nombre": "Aquaman",
+      "imagen": "./imagenes/aquaman-funko.JPG",
+      "precio": "11990",
+      "id": "9"
+    },
+    {
+      "nombre": "Doctor Strange",
+      "imagen": "./imagenes/doctor-strange-funko.JPG",
+      "precio": "15990",
+      "id": "10"
+    }
+  ]
+}
