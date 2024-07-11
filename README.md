@@ -1,6 +1,8 @@
-# AluraGeek
+# Alura Geek
 
-AluraGeek es una aplicación web para gestionar productos de una tienda en línea. Permite agregar, mostrar y eliminar productos de una lista. Este proyecto utiliza JSON Server para simular una API REST.
+Alura Geek es una aplicación web para gestionar productos de una tienda en línea. 
+Permite agregar, mostrar y eliminar productos de una lista. 
+Este proyecto utiliza JSON Server para simular una API REST.
 
 ## Requisitos
 
